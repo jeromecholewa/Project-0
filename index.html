@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style media="screen">
+
+            body {
+              background:white;
+            }
+
+            .grid {
+                background-color: white;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 5px;
+                grid-template-columns: auto auto;
+            }
+
+
+            .seearch {
+              margin: 4px;
+              background: darkgrey;
+              border: 2px solid transparent;
+              border-radius: 4px;
+              display: flex;
+              height: 34px;
+              min-width: 0;
+              width: 80px
+              padding-inline-end: 16px;
+              padding-inline-start: 12px;
+              margin: 4px;
+            }
+
+            .seearch:hover {
+              border: solid 2px grey;
+            }
+
+            #iinput {
+              --action-height: 34px;
+              border: solid 2px grey;
+              border-radius: calc(var(--action-height) / 2);
+              display: flex;
+              height: var(--action-height);
+              min-width: 0;
+              width: 500px;
+              outline: none;
+              padding-inline-end: 16px;
+              padding-inline-start: 12px;
+              margin: 4px;
+
+            }
+            #iinput:hover {
+                background-color: darkgrey;
+            }
+
+            .navi {
+              display: inline-block;
+              margin-right: 20px;
+              font-family: Arial;
+            }
+
+            form {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header >
+          <nav >
+            <div style="justify-content:right ; display:flex; background: darkgreen">
+              <ul>
+                <li class="navi"><a href="https://google.com">Click here!</a></li>
+                <li class="navi"><a href="https://google.com">Click here!</a></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+          <div style="justify-content:center ; display:flex;">
+            <img src="/Users/jeromecholewa/Documents/Education/EdX CS50/Project 0/googoo.png"
+          alt="googoo" width="300" >
+          </div>
+          <div style=" justify-content:center ; display:flex; background:lightblue; padding:5px">
+            <form action="https://www.google.com/search" >
+                <input id="iinput" type="text" name="q" placeholder="Search Googoo or type a URL";>
+                <div class="grid">
+                  <div class="">
+                    <input class="seearch" type="submit" value="Google Search">
+                  </div>
+                  <div class="">
+                    <input class="seearch" type="submit" value="I'm Feeling Lucky" formaction="https://www.bing.com/search">
+                  </div>
+                </div>
+
+            </form>
+          </div>
+    </body>
+</html>
