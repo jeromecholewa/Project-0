@@ -1,0 +1,214 @@
+#naav {
+  background: rgb(32,33,36);
+  font-size: 14px;
+  justify-content: right ;
+  display: flex;
+}
+
+.navi {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: Arial;
+}
+
+body {
+  background:rgb(32,33,36);
+}
+
+a:link{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+a:hover{
+  color:white;
+}
+
+
+
+#navGridAdv {
+    background-color: rgb(32,33,36);
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 400px  auto;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: darkgrey;
+}
+
+.tableAdvHeadRow {
+	background: background:rgb(32,33,36);
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: left;
+
+}
+
+#table-itemAdvSearchOne {
+
+	max-width:200px;
+	padding: 10px;
+	background: rgb(32,33,36);
+	color: rgb(232,234,237);
+
+
+}
+
+.table-itemAdvSearch {
+  	font-family: Arial;
+	background-color: background:rgb(32,33,36);
+	font-size: 14px;
+	color: rgb(189,193,198);
+	padding: 10px;
+	text-align: left;
+	white-space:nowrap;
+	width: 180px;
+	vertical-align:middle;
+}
+
+td {
+	height: 40px;
+	vertical-align:middle;
+
+}
+
+
+.table-itemRightAdvSearch {
+	font-family: Arial;
+	font-size: 14px;
+	background-color: rgb(32,33,36);
+	min-width: 200px;
+
+	height: 80%;
+	margin-left: 20px;
+}
+
+img {
+  height: 100px;
+}
+
+.seearch {
+  margin: 4px;
+  background: rgb(48,49,52);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  display: flex;
+  height: 50px;
+  width: 160px;
+  padding-inline-end: 16px;
+  padding-inline-start: 12px;
+  margin: 4px;
+  justify-content: center;
+  color: rgb(232,234,237);
+
+  align-items: center;
+}
+
+.seearch:hover {
+  border: solid 1px grey;
+}
+
+
+
+#AdvSearchButton {
+  margin: 4px;
+  font-weight: 480;
+  background: rgb(138,180,248);
+  border: 1px solid rgb(138,180,248);
+  border-radius: 2px;
+  height: 34px;
+  width: 160px;
+  padding-inline-end: 16px;
+  padding-inline-start: 12px;
+  margin: 4px;
+  justify-content: center;
+}
+
+#AdvSearchButton:hover {
+  border-color: blue;
+  background: lightblue;
+}
+
+#iinput {
+  --action-height: 34px;
+  border: solid 1px grey;
+  border-radius: calc(var(--action-height) / 2);
+  display: flex;
+  background: rgb(32,33,36);
+  height: var(--action-height);
+  min-width: 0;
+  width: 500px;
+  outline: none;
+  padding-inline-end: 16px;
+  padding-inline-start: 12px;
+  margin: 4px;
+  color: rgb(232,234,237);
+  font-size: 16px;
+
+}
+
+#iinput:hover {
+    background-color: rgb(48,49,52);
+}
+
+#iinput:focus {
+ 	color: rgb(232,234,237);
+}
+
+#iinput:active {
+ 	color: rgb(232,234,237);
+}
+
+.table-itemMidAdvSearch {
+	font-family: Arial;
+	font-size: 20px;
+	background-color: rgb(32,33,36);
+	max-width: 500px;
+	width:100%;
+	height: 100%;
+	vertical-align:middle;
+
+}
+
+.all {
+  border: solid 1px rgb(95,99,104) ;
+  display: flex;
+  background: rgb(32,33,36);
+  color:  rgb(189,193,198);
+  height: 70%;
+  min-width: 0px;
+  max-width: 500px;
+  width: 95%;
+  outline: none;
+  padding-inline-end: 10px;
+  padding-inline-start: 10px;
+  vertical-align:middle;
+
+}
+
+.all:focus {
+    border: solid 1px rgb(138,180,248);
+
+/*     box-shadow: 0px 0px 2px inset grey; */
+
+}
+
+#foorm {
+  justify-content:center ;
+  display:flex;
+  background: rgb(32,33,36);
+  padding:5px;
+ }
+
+.index_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+	display: grid;
+    grid-template-columns: auto  auto;
+}

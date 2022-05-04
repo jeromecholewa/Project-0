@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="./SearchStyles.css">
+    </head>
+    <body>
+        <header >
+          <nav >
+            <div  id="navGridAdv" >
+              <div style="justify-content:left; padding-top:20px;">
+                <img src="/Users/jeromecholewa/Documents/Education/EdX CS50/Project 0/googooBlack.png"
+              alt="googoo" style="height: 45px;">
+              </div>
+              <div id="naav" >
+                <ul>
+                  <li class="navi"><a href="./mapSearch.html">MapSearch</a></li>
+                  <li class="navi"><a href="./ImageSearch.html">Image Search</a></li>
+                  <li class="navi"><a href="./index.html">Index</a></li>
+                </ul>
+              </div>
+              <h3 style="color: rgb(242,139,130); font-family: Arial; font-weight:300;">&nbsp&nbsp&nbsp&nbspAdvanced Search</h3>
+
+              </div>
+            </div>
+          </nav>
+        </header>
+
+       <!-- 
+ <div class="gridAdvSearch">
+            <div >Find pages with...</div>
+            <div class="grid-itemMidAdvSearch">2</div>
+            <div class="grid-itemRightAdvSearch">3</div>
+            <div class="grid-itemAdvSearch">all these words:</div>
+            <div class="grid-itemMidAdvSearch">2</div>
+            <div class="grid-itemRightAdvSearch">3</div>   
+            <div class="grid-itemAdvSearch">this exact word or phrase:</div>
+            <div class="grid-itemMidAdvSearch">2</div>
+            <div class="grid-itemRightAdvSearch">3</div>             
+            <div class="grid-itemAdvSearch">any of these words:</div>
+            <div class="grid-itemMidAdvSearch">2</div>
+            <div class="grid-itemRightAdvSearch">3</div>               
+            <div class="grid-itemAdvSearch">none of these words:</div>
+            <div class="grid-itemMidAdvSearch">2</div>
+            <div class="grid-itemRightAdvSearch">3</div>               
+            
+        </div>
+ -->
+<div  style="padding-left:30px; padding-top:20px;">
+	<table style="table-layout:auto; width:100%;">
+	<col  style="width: 180px;"/>
+	<col  style="width: 500px;"/>
+         <tbody>
+			<form action="https://www.google.com/search">
+				<tr class="tableAdvHeadRow" >
+					<td >
+						<div id="table-itemAdvSearchOne" >Find pages with...
+						</div>
+					</td>
+					<td>
+						<div style=" background:rgb(32,33,36); ">
+							   
+						 </div>
+					 </td>
+					<td><div class="table-itemRightAdvSearch"> </div></td>
+				</tr>
+
+                <tr>
+                    <td ><div class="table-itemAdvSearch">all these words:</div></td>
+                    <td >
+						<div class="table-itemMidAdvSearch">
+							<input class="all" type="text" name="as_q" placeholder="">
+					
+						</div>
+                    </td>
+                    <td >
+                    	<div class="table-itemRightAdvSearch"> </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td ><div class="table-itemAdvSearch">this exact word or phrase:</div></td>
+                    <td >
+						<div class="table-itemMidAdvSearch">
+							<input class="all" type="text" name="as_epq" placeholder="">
+						</div>
+                    </td>
+                    <td >
+                    	<div class="table-itemRightAdvSearch"> </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td ><div class="table-itemAdvSearch">any of these words:</div></td>
+                    <td >
+						<div class="table-itemMidAdvSearch">
+							<input class="all" type="text" name="as_oq" placeholder="">
+						</div>
+                    </td>
+                    <td >
+                    	<div class="table-itemRightAdvSearch"> </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td ><div class="table-itemAdvSearch">none of these words:</div></td>
+                    <td >
+						<div class="table-itemMidAdvSearch">
+							<input class="all" type="text" name="as_eq" placeholder="">
+						</div>
+                    </td>
+                    <td >
+                    	<div class="table-itemRightAdvSearch"> </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td ><div class="table-itemAdvSearch">  </div></td>
+                    <td >
+						<div class="table-itemMidAdvSearch" style="text-align:right;">
+							<input id="AdvSearchButton" type="submit" value="Advanced Search">
+						</div>
+                    </td>
+                    <td >
+                    	<div class="table-itemRightAdvSearch"> </div>
+                    </td>
+                </tr>
+           </form>
+		</tbody>
+	</table>
+</div>
+        <!-- 
+<div id="AdvFoorm">
+          <form action="https://www.google.com/search" >
+              <input id="iinput" type="text" name="q" placeholder="Search Googoo or type a URL;">
+              <div class="grid">
+                <div class="">
+                  <input class="seearch" type="submit" value="Google Search">
+                </div>
+                <div class="">
+                  <input class="seearch" type="submit" value="I'm Feeling Lucky" formaction="https://www.bing.com/search">
+                </div>
+              </div>
+
+          </form>
+        </div>
+ -->
+    </body>
+</html>
