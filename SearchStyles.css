@@ -38,7 +38,7 @@ a:hover{
 }
 
 .tableAdvHeadRow {
-	background: background:rgb(32,33,36);
+	background:rgb(32,33,36);
 	font-family: Arial;
 	font-size: 16px;
 	font-weight: 300;
@@ -58,7 +58,7 @@ a:hover{
 
 .table-itemAdvSearch {
   	font-family: Arial;
-	background-color: background:rgb(32,33,36);
+	background-color:rgb(32,33,36);
 	font-size: 14px;
 	color: rgb(189,193,198);
 	padding: 10px;
